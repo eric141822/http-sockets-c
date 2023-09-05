@@ -54,7 +54,7 @@ int main(int argc, char *argv[])
     FILE *fp = NULL;
     if (argc != 2)
     {
-        fprintf(stderr, "usage: client hostname\n");
+        fprintf(stderr, "missing arguments, usage: client hostname\n");
         exit(1);
     }
     // get file name, ip, port.

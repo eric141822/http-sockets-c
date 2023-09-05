@@ -49,7 +49,7 @@ int main(int argc, char *argv[])
 	char client_msg[4096];
 	if (argc != 2)
 	{
-		printf("Usage: %s <port>\n", argv[0]);
+		printf("missing arguments, usage: %s <port>\n", argv[0]);
 		return 1;
 	}
 	memset(&hints, 0, sizeof hints);
